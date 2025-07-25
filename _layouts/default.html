@@ -1,12 +1,19 @@
 <!doctype html>
-<html>
-  <head>
-	  <meta charset="utf-8">
-	  <title>{{ page.title}} </title>
-	  <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-	  {% include navigation.html %}
-	  {{ content }}
-  </body>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+		<link rel="stylesheet" href="/assets/css/styles.css">
+	</head>
+	<main> f
+		<nav> 
+			<div class="links">
+				<a href="/">Home</a>
+				<a href="/blog/">Blog</a>
+				<a href="/contact">Contact</a>
+			</div>
+		</nav>
+	</main>
+		<article>
+			<p> {{ content }} </p>
+		</article>
 </html>
